@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		973C73291503AA190051BD74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973C73281503AA190051BD74 /* UIKit.framework */; };
+		973C732B1503AA190051BD74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973C732A1503AA190051BD74 /* Foundation.framework */; };
+		973C732D1503AA190051BD74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973C732C1503AA190051BD74 /* CoreGraphics.framework */; };
+		973C73331503AA1A0051BD74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 973C73311503AA1A0051BD74 /* InfoPlist.strings */; };
+		973C73351503AA1A0051BD74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 973C73341503AA1A0051BD74 /* main.m */; };
+		973C73391503AA1A0051BD74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 973C73381503AA1A0051BD74 /* AppDelegate.m */; };
+		973C733C1503AA1A0051BD74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 973C733B1503AA1A0051BD74 /* ViewController.m */; };
+		973C733F1503AA1A0051BD74 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 973C733D1503AA1A0051BD74 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		973C73241503AA190051BD74 /* CalcBC Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalcBC Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		973C73281503AA190051BD74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		973C732A1503AA190051BD74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		973C732C1503AA190051BD74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		973C73301503AA190051BD74 /* CalcBC Pro-Info.plist */ = {isa = PBXFileReference; path = "CalcBC Pro-Info.plist"; sourceTree = "<group>"; };
+		973C73321503AA1A0051BD74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		973C73341503AA1A0051BD74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		973C73361503AA1A0051BD74 /* CalcBC Pro-Prefix.pch */ = {isa = PBXFileReference; path = "CalcBC Pro-Prefix.pch"; sourceTree = "<group>"; };
+		973C73371503AA1A0051BD74 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		973C73381503AA1A0051BD74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		973C733A1503AA1A0051BD74 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		973C733B1503AA1A0051BD74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		973C733E1503AA1A0051BD74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		973C73211503AA190051BD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973C73291503AA190051BD74 /* UIKit.framework in Frameworks */,
+				973C732B1503AA190051BD74 /* Foundation.framework in Frameworks */,
+				973C732D1503AA190051BD74 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		973C73191503AA180051BD74 = {
+			isa = PBXGroup;
+			children = (
+				973C732E1503AA190051BD74 /* CalcBC Pro */,
+				973C73271503AA190051BD74 /* Frameworks */,
+				973C73251503AA190051BD74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		973C73251503AA190051BD74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				973C73241503AA190051BD74 /* CalcBC Pro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		973C73271503AA190051BD74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				973C73281503AA190051BD74 /* UIKit.framework */,
+				973C732A1503AA190051BD74 /* Foundation.framework */,
+				973C732C1503AA190051BD74 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		973C732E1503AA190051BD74 /* CalcBC Pro */ = {
+			isa = PBXGroup;
+			children = (
+				973C73371503AA1A0051BD74 /* AppDelegate.h */,
+				973C73381503AA1A0051BD74 /* AppDelegate.m */,
+				973C733A1503AA1A0051BD74 /* ViewController.h */,
+				973C733B1503AA1A0051BD74 /* ViewController.m */,
+				973C733D1503AA1A0051BD74 /* ViewController.xib */,
+				973C732F1503AA190051BD74 /* Supporting Files */,
+			);
+			path = "CalcBC Pro";
+			sourceTree = "<group>";
+		};
+		973C732F1503AA190051BD74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				973C73301503AA190051BD74 /* CalcBC Pro-Info.plist */,
+				973C73311503AA1A0051BD74 /* InfoPlist.strings */,
+				973C73341503AA1A0051BD74 /* main.m */,
+				973C73361503AA1A0051BD74 /* CalcBC Pro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		973C73231503AA190051BD74 /* CalcBC Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 973C73421503AA1A0051BD74 /* Build configuration list for PBXNativeTarget "CalcBC Pro" */;
+			buildPhases = (
+				973C73201503AA190051BD74 /* Sources */,
+				973C73211503AA190051BD74 /* Frameworks */,
+				973C73221503AA190051BD74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalcBC Pro";
+			productName = "CalcBC Pro";
+			productReference = 973C73241503AA190051BD74 /* CalcBC Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		973C731B1503AA180051BD74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = VinuIlangovan;
+			};
+			buildConfigurationList = 973C731E1503AA180051BD74 /* Build configuration list for PBXProject "CalcBC Pro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 973C73191503AA180051BD74;
+			productRefGroup = 973C73251503AA190051BD74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				973C73231503AA190051BD74 /* CalcBC Pro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		973C73221503AA190051BD74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973C73331503AA1A0051BD74 /* InfoPlist.strings in Resources */,
+				973C733F1503AA1A0051BD74 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		973C73201503AA190051BD74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973C73351503AA1A0051BD74 /* main.m in Sources */,
+				973C73391503AA1A0051BD74 /* AppDelegate.m in Sources */,
+				973C733C1503AA1A0051BD74 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		973C73311503AA1A0051BD74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				973C73321503AA1A0051BD74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		973C733D1503AA1A0051BD74 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				973C733E1503AA1A0051BD74 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		973C73401503AA1A0051BD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		973C73411503AA1A0051BD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		973C73431503AA1A0051BD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalcBC Pro/CalcBC Pro-Prefix.pch";
+				INFOPLIST_FILE = "CalcBC Pro/CalcBC Pro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		973C73441503AA1A0051BD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalcBC Pro/CalcBC Pro-Prefix.pch";
+				INFOPLIST_FILE = "CalcBC Pro/CalcBC Pro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		973C731E1503AA180051BD74 /* Build configuration list for PBXProject "CalcBC Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973C73401503AA1A0051BD74 /* Debug */,
+				973C73411503AA1A0051BD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		973C73421503AA1A0051BD74 /* Build configuration list for PBXNativeTarget "CalcBC Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973C73431503AA1A0051BD74 /* Debug */,
+				973C73441503AA1A0051BD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 973C731B1503AA180051BD74 /* Project object */;
+}
