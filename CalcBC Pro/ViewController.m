@@ -7,8 +7,113 @@
 //
 
 #import "ViewController.h"
+#import "AboutPage.h"
+#import "TrigIdentities.h"
+#import "TrigUnitCircle.h"
+#import "TopIntegrals.h"
+#import "DerivativeRules.h"
+#import "CommonDerivatives.h"
+#import "RateOfChange.h"
+#import "IntegrationByParts.h"
+#import "LHopitalsRule.h"
+#import "FTOCalculus.h"
+#import "Volume.h"
+#import "ArcLengthSurfaceArea.h"
+#import "PolarCoordinates.h"
+#import "Series.h"
+#import "MacLaurinSeries.h"
 
 @implementation ViewController
+
+- (IBAction)polarCoordinatesButton:(id)sender{
+    PolarCoordinates *second =[[PolarCoordinates alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController:second animated:YES];
+}
+
+- (IBAction)seriesButton:(id)sender{
+    Series *second =[[Series alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController:second animated:YES];
+}
+
+- (IBAction)macLaurinSeriesButton:(id)sender{
+    MacLaurinSeries *second =[[MacLaurinSeries alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController:second animated:YES];
+}
+
+- (IBAction)volumeButton:(id)sender{
+    Volume *second =[[Volume alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController:second animated:YES];
+}
+
+- (IBAction)arcLengthSurfaceAreaButton:(id)sender{
+    ArcLengthSurfaceArea *second =[[ArcLengthSurfaceArea alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController:second animated:YES];
+}
+
+- (IBAction)rateOfChangeButton:(id)sender{
+    RateOfChange *second =[[RateOfChange alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController:second animated:YES];
+}
+
+- (IBAction)integrationByPartsButton:(id)sender{
+    IntegrationByParts *second =[[IntegrationByParts alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController:second animated:YES];
+}
+
+- (IBAction)lHopitalsRuleButton:(id)sender{
+    LHopitalsRule *second =[[LHopitalsRule alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController:second animated:YES];
+}
+
+- (IBAction)fTOCalculusButton:(id)sender{
+    FTOCalculus *second =[[FTOCalculus alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController:second animated:YES];
+}
+
+- (IBAction)topIntegralsButton:(id)sender{
+    TopIntegrals *second =[[TopIntegrals alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController:second animated:YES];
+}
+
+- (IBAction)derivativeRulesButton:(id)sender{
+    DerivativeRules *second =[[DerivativeRules alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController:second animated:YES];
+}
+
+- (IBAction)commonDerivativesButton:(id)sender{
+    CommonDerivatives *second =[[CommonDerivatives alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController:second animated:YES];
+}
+
+- (IBAction)trigUnitCircleButton:(id)sender{
+    TrigUnitCircle *second =[[TrigUnitCircle alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController:second animated:YES];
+}
+
+- (IBAction)trigIdentitiesButton:(id)sender{
+    TrigIdentities *second =[[TrigIdentities alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+	[self presentModalViewController:second animated:YES];
+}
+
+- (IBAction)aboutPageButton:(id)sender{
+    AboutPage *second =[[AboutPage alloc] initWithNibName:nil bundle:nil];
+    second.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+	[self presentModalViewController:second animated:YES];
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -20,6 +125,8 @@
 
 - (void)viewDidLoad
 {
+    [tableScroll setScrollEnabled:YES];
+	[tableScroll setContentSize:CGSizeMake(246, 620)];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

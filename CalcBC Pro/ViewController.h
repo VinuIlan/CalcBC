@@ -8,6 +8,24 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    IBOutlet UIScrollView *tableScroll;
+}
+
+- (IBAction)aboutPageButton:(id)sender;
+- (IBAction)trigIdentitiesButton:(id)sender;
+- (IBAction)trigUnitCircleButton:(id)sender;
+- (IBAction)topIntegralsButton:(id)sender;
+- (IBAction)derivativeRulesButton:(id)sender;
+- (IBAction)commonDerivativesButton:(id)sender;
+- (IBAction)rateOfChangeButton:(id)sender;
+- (IBAction)integrationByPartsButton:(id)sender;
+- (IBAction)lHopitalsRuleButton:(id)sender;
+- (IBAction)fTOCalculusButton:(id)sender;
+- (IBAction)volumeButton:(id)sender;
+- (IBAction)arcLengthSurfaceAreaButton:(id)sender;
+- (IBAction)polarCoordinatesButton:(id)sender;
+- (IBAction)seriesButton:(id)sender;
+- (IBAction)macLaurinSeriesButton:(id)sender;
 
 @end

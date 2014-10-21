@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970E391315223DEB009512DA /* TopIntegrals.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E391115223DEB009512DA /* TopIntegrals.m */; };
+		970E391415223DEB009512DA /* TopIntegrals.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970E391215223DEB009512DA /* TopIntegrals.xib */; };
+		970E391915223E16009512DA /* DerivativeRules.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E391715223E16009512DA /* DerivativeRules.m */; };
+		970E391A15223E16009512DA /* DerivativeRules.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970E391815223E16009512DA /* DerivativeRules.xib */; };
+		970E391E15223E43009512DA /* CommonDerivatives.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E391C15223E43009512DA /* CommonDerivatives.m */; };
+		970E391F15223E43009512DA /* CommonDerivatives.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970E391D15223E43009512DA /* CommonDerivatives.xib */; };
+		970E392315224779009512DA /* RateOfChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E392115224779009512DA /* RateOfChange.m */; };
+		970E392415224779009512DA /* RateOfChange.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970E392215224779009512DA /* RateOfChange.xib */; };
+		970E3928152247A3009512DA /* IntegrationByParts.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E3926152247A3009512DA /* IntegrationByParts.m */; };
+		970E3929152247A3009512DA /* IntegrationByParts.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970E3927152247A3009512DA /* IntegrationByParts.xib */; };
+		970E392D152247E0009512DA /* LHopitalsRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E392B152247E0009512DA /* LHopitalsRule.m */; };
+		970E392E152247E0009512DA /* LHopitalsRule.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970E392C152247E0009512DA /* LHopitalsRule.xib */; };
+		970E393215224820009512DA /* FTOCalculus.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E393015224820009512DA /* FTOCalculus.m */; };
+		970E393315224820009512DA /* FTOCalculus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970E393115224820009512DA /* FTOCalculus.xib */; };
+		970E393715224E72009512DA /* Volume.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E393515224E72009512DA /* Volume.m */; };
+		970E393815224E72009512DA /* Volume.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970E393615224E72009512DA /* Volume.xib */; };
+		970E393C15224EAE009512DA /* ArcLengthSurfaceArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E393A15224EAD009512DA /* ArcLengthSurfaceArea.m */; };
+		970E393D15224EAE009512DA /* ArcLengthSurfaceArea.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970E393B15224EAD009512DA /* ArcLengthSurfaceArea.xib */; };
+		970E3941152253E8009512DA /* PolarCoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E393F152253E8009512DA /* PolarCoordinates.m */; };
+		970E3942152253E8009512DA /* PolarCoordinates.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970E3940152253E8009512DA /* PolarCoordinates.xib */; };
+		970E39461522540D009512DA /* Series.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E39441522540C009512DA /* Series.m */; };
+		970E39471522540D009512DA /* Series.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970E39451522540C009512DA /* Series.xib */; };
+		970E394B15225448009512DA /* MacLaurinSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E394915225447009512DA /* MacLaurinSeries.m */; };
+		970E394C15225448009512DA /* MacLaurinSeries.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970E394A15225448009512DA /* MacLaurinSeries.xib */; };
+		970E394E152263E7009512DA /* TrigIdentities.png in Resources */ = {isa = PBXBuildFile; fileRef = 970E394D152263E7009512DA /* TrigIdentities.png */; };
+		9719DE211523764E00873335 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9719DE201523764E00873335 /* Icon.png */; };
 		973C73291503AA190051BD74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973C73281503AA190051BD74 /* UIKit.framework */; };
 		973C732B1503AA190051BD74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973C732A1503AA190051BD74 /* Foundation.framework */; };
 		973C732D1503AA190051BD74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973C732C1503AA190051BD74 /* CoreGraphics.framework */; };
@@ -15,22 +41,121 @@
 		973C73391503AA1A0051BD74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 973C73381503AA1A0051BD74 /* AppDelegate.m */; };
 		973C733C1503AA1A0051BD74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 973C733B1503AA1A0051BD74 /* ViewController.m */; };
 		973C733F1503AA1A0051BD74 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 973C733D1503AA1A0051BD74 /* ViewController.xib */; };
+		975B4053152210A00062C978 /* Arc Length-Surface Area.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B403C152210A00062C978 /* Arc Length-Surface Area.png */; };
+		975B4054152210A00062C978 /* BackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B403D152210A00062C978 /* BackButton.png */; };
+		975B4055152210A00062C978 /* CalcBCIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B403E152210A00062C978 /* CalcBCIcon.png */; };
+		975B4056152210A00062C978 /* CalcBCIconR.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B403F152210A00062C978 /* CalcBCIconR.png */; };
+		975B4057152210A00062C978 /* CalcBCIconS.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B4040152210A00062C978 /* CalcBCIconS.png */; };
+		975B4058152210A00062C978 /* Common Derivatives.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B4041152210A00062C978 /* Common Derivatives.png */; };
+		975B4059152210A00062C978 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B4042152210A00062C978 /* Default.png */; };
+		975B405A152210A00062C978 /* Derivative Rules.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B4043152210A00062C978 /* Derivative Rules.png */; };
+		975B405B152210A00062C978 /* Fundamental Theorem of Calculus.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B4044152210A00062C978 /* Fundamental Theorem of Calculus.png */; };
+		975B405C152210A00062C978 /* Integration by Parts.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B4045152210A00062C978 /* Integration by Parts.png */; };
+		975B405D152210A00062C978 /* L'Hopital's Rule.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B4046152210A00062C978 /* L'Hopital's Rule.png */; };
+		975B405E152210A00062C978 /* MacLaurin Series.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B4047152210A00062C978 /* MacLaurin Series.png */; };
+		975B405F152210A00062C978 /* MainButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B4048152210A00062C978 /* MainButton.png */; };
+		975B4060152210A00062C978 /* MainWhiteBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B4049152210A00062C978 /* MainWhiteBackground.png */; };
+		975B4061152210A00062C978 /* MasterBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B404A152210A00062C978 /* MasterBackground.png */; };
+		975B4062152210A00062C978 /* Polar Coordinates.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B404B152210A00062C978 /* Polar Coordinates.png */; };
+		975B4063152210A00062C978 /* Rate of Change.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B404C152210A00062C978 /* Rate of Change.png */; };
+		975B4064152210A00062C978 /* Series.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B404D152210A00062C978 /* Series.png */; };
+		975B4065152210A00062C978 /* Top20IntegralsPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B404E152210A00062C978 /* Top20IntegralsPic.png */; };
+		975B4066152210A00062C978 /* Trig Identities.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B404F152210A00062C978 /* Trig Identities.png */; };
+		975B4067152210A00062C978 /* Trig Unit Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B4050152210A00062C978 /* Trig Unit Circle.png */; };
+		975B4068152210A00062C978 /* Volume(Disc-Washer).png in Resources */ = {isa = PBXBuildFile; fileRef = 975B4051152210A00062C978 /* Volume(Disc-Washer).png */; };
+		975B4069152210A00062C978 /* WhiteBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 975B4052152210A00062C978 /* WhiteBackground.png */; };
+		975B4071152217540062C978 /* TrigIdentities.m in Sources */ = {isa = PBXBuildFile; fileRef = 975B406F152217540062C978 /* TrigIdentities.m */; };
+		975B4072152217540062C978 /* TrigIdentities.xib in Resources */ = {isa = PBXBuildFile; fileRef = 975B4070152217540062C978 /* TrigIdentities.xib */; };
+		975B407615221C8D0062C978 /* AboutPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 975B407415221C8D0062C978 /* AboutPage.m */; };
+		975B407715221C8D0062C978 /* AboutPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 975B407515221C8D0062C978 /* AboutPage.xib */; };
+		975B407B1522223A0062C978 /* TrigUnitCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 975B4079152222390062C978 /* TrigUnitCircle.m */; };
+		975B407C1522223A0062C978 /* TrigUnitCircle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 975B407A1522223A0062C978 /* TrigUnitCircle.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		970E391015223DEB009512DA /* TopIntegrals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopIntegrals.h; path = "CalcBC Pro/TopIntegrals.h"; sourceTree = "<group>"; };
+		970E391115223DEB009512DA /* TopIntegrals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopIntegrals.m; path = "CalcBC Pro/TopIntegrals.m"; sourceTree = "<group>"; };
+		970E391215223DEB009512DA /* TopIntegrals.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TopIntegrals.xib; path = "CalcBC Pro/TopIntegrals.xib"; sourceTree = "<group>"; };
+		970E391615223E16009512DA /* DerivativeRules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DerivativeRules.h; path = "CalcBC Pro/DerivativeRules.h"; sourceTree = "<group>"; };
+		970E391715223E16009512DA /* DerivativeRules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DerivativeRules.m; path = "CalcBC Pro/DerivativeRules.m"; sourceTree = "<group>"; };
+		970E391815223E16009512DA /* DerivativeRules.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DerivativeRules.xib; path = "CalcBC Pro/DerivativeRules.xib"; sourceTree = "<group>"; };
+		970E391B15223E43009512DA /* CommonDerivatives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonDerivatives.h; path = "CalcBC Pro/CommonDerivatives.h"; sourceTree = "<group>"; };
+		970E391C15223E43009512DA /* CommonDerivatives.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonDerivatives.m; path = "CalcBC Pro/CommonDerivatives.m"; sourceTree = "<group>"; };
+		970E391D15223E43009512DA /* CommonDerivatives.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CommonDerivatives.xib; path = "CalcBC Pro/CommonDerivatives.xib"; sourceTree = "<group>"; };
+		970E392015224779009512DA /* RateOfChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RateOfChange.h; path = "CalcBC Pro/RateOfChange.h"; sourceTree = "<group>"; };
+		970E392115224779009512DA /* RateOfChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RateOfChange.m; path = "CalcBC Pro/RateOfChange.m"; sourceTree = "<group>"; };
+		970E392215224779009512DA /* RateOfChange.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RateOfChange.xib; path = "CalcBC Pro/RateOfChange.xib"; sourceTree = "<group>"; };
+		970E3925152247A3009512DA /* IntegrationByParts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntegrationByParts.h; path = "CalcBC Pro/IntegrationByParts.h"; sourceTree = "<group>"; };
+		970E3926152247A3009512DA /* IntegrationByParts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntegrationByParts.m; path = "CalcBC Pro/IntegrationByParts.m"; sourceTree = "<group>"; };
+		970E3927152247A3009512DA /* IntegrationByParts.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IntegrationByParts.xib; path = "CalcBC Pro/IntegrationByParts.xib"; sourceTree = "<group>"; };
+		970E392A152247E0009512DA /* LHopitalsRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHopitalsRule.h; path = "CalcBC Pro/LHopitalsRule.h"; sourceTree = "<group>"; };
+		970E392B152247E0009512DA /* LHopitalsRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHopitalsRule.m; path = "CalcBC Pro/LHopitalsRule.m"; sourceTree = "<group>"; };
+		970E392C152247E0009512DA /* LHopitalsRule.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LHopitalsRule.xib; path = "CalcBC Pro/LHopitalsRule.xib"; sourceTree = "<group>"; };
+		970E392F15224820009512DA /* FTOCalculus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTOCalculus.h; path = "CalcBC Pro/FTOCalculus.h"; sourceTree = "<group>"; };
+		970E393015224820009512DA /* FTOCalculus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FTOCalculus.m; path = "CalcBC Pro/FTOCalculus.m"; sourceTree = "<group>"; };
+		970E393115224820009512DA /* FTOCalculus.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FTOCalculus.xib; path = "CalcBC Pro/FTOCalculus.xib"; sourceTree = "<group>"; };
+		970E393415224E72009512DA /* Volume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Volume.h; path = "CalcBC Pro/Volume.h"; sourceTree = "<group>"; };
+		970E393515224E72009512DA /* Volume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Volume.m; path = "CalcBC Pro/Volume.m"; sourceTree = "<group>"; };
+		970E393615224E72009512DA /* Volume.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Volume.xib; path = "CalcBC Pro/Volume.xib"; sourceTree = "<group>"; };
+		970E393915224EAD009512DA /* ArcLengthSurfaceArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArcLengthSurfaceArea.h; path = "CalcBC Pro/ArcLengthSurfaceArea.h"; sourceTree = "<group>"; };
+		970E393A15224EAD009512DA /* ArcLengthSurfaceArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArcLengthSurfaceArea.m; path = "CalcBC Pro/ArcLengthSurfaceArea.m"; sourceTree = "<group>"; };
+		970E393B15224EAD009512DA /* ArcLengthSurfaceArea.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ArcLengthSurfaceArea.xib; path = "CalcBC Pro/ArcLengthSurfaceArea.xib"; sourceTree = "<group>"; };
+		970E393E152253E7009512DA /* PolarCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PolarCoordinates.h; path = "CalcBC Pro/PolarCoordinates.h"; sourceTree = "<group>"; };
+		970E393F152253E8009512DA /* PolarCoordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PolarCoordinates.m; path = "CalcBC Pro/PolarCoordinates.m"; sourceTree = "<group>"; };
+		970E3940152253E8009512DA /* PolarCoordinates.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PolarCoordinates.xib; path = "CalcBC Pro/PolarCoordinates.xib"; sourceTree = "<group>"; };
+		970E39431522540B009512DA /* Series.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Series.h; path = "CalcBC Pro/Series.h"; sourceTree = "<group>"; };
+		970E39441522540C009512DA /* Series.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Series.m; path = "CalcBC Pro/Series.m"; sourceTree = "<group>"; };
+		970E39451522540C009512DA /* Series.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Series.xib; path = "CalcBC Pro/Series.xib"; sourceTree = "<group>"; };
+		970E394815225447009512DA /* MacLaurinSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacLaurinSeries.h; path = "CalcBC Pro/MacLaurinSeries.h"; sourceTree = "<group>"; };
+		970E394915225447009512DA /* MacLaurinSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MacLaurinSeries.m; path = "CalcBC Pro/MacLaurinSeries.m"; sourceTree = "<group>"; };
+		970E394A15225448009512DA /* MacLaurinSeries.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MacLaurinSeries.xib; path = "CalcBC Pro/MacLaurinSeries.xib"; sourceTree = "<group>"; };
+		970E394D152263E7009512DA /* TrigIdentities.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrigIdentities.png; sourceTree = "<group>"; };
+		9719DE201523764E00873335 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		973C73241503AA190051BD74 /* CalcBC Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalcBC Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		973C73281503AA190051BD74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		973C732A1503AA190051BD74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		973C732C1503AA190051BD74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		973C73301503AA190051BD74 /* CalcBC Pro-Info.plist */ = {isa = PBXFileReference; path = "CalcBC Pro-Info.plist"; sourceTree = "<group>"; };
+		973C73301503AA190051BD74 /* CalcBC Pro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalcBC Pro-Info.plist"; sourceTree = "<group>"; };
 		973C73321503AA1A0051BD74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		973C73341503AA1A0051BD74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		973C73361503AA1A0051BD74 /* CalcBC Pro-Prefix.pch */ = {isa = PBXFileReference; path = "CalcBC Pro-Prefix.pch"; sourceTree = "<group>"; };
-		973C73371503AA1A0051BD74 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		973C73361503AA1A0051BD74 /* CalcBC Pro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalcBC Pro-Prefix.pch"; sourceTree = "<group>"; };
+		973C73371503AA1A0051BD74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		973C73381503AA1A0051BD74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		973C733A1503AA1A0051BD74 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		973C733A1503AA1A0051BD74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		973C733B1503AA1A0051BD74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		973C733E1503AA1A0051BD74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		975B403C152210A00062C978 /* Arc Length-Surface Area.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arc Length-Surface Area.png"; sourceTree = "<group>"; };
+		975B403D152210A00062C978 /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton.png; sourceTree = "<group>"; };
+		975B403E152210A00062C978 /* CalcBCIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalcBCIcon.png; sourceTree = "<group>"; };
+		975B403F152210A00062C978 /* CalcBCIconR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalcBCIconR.png; sourceTree = "<group>"; };
+		975B4040152210A00062C978 /* CalcBCIconS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalcBCIconS.png; sourceTree = "<group>"; };
+		975B4041152210A00062C978 /* Common Derivatives.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Common Derivatives.png"; sourceTree = "<group>"; };
+		975B4042152210A00062C978 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		975B4043152210A00062C978 /* Derivative Rules.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Derivative Rules.png"; sourceTree = "<group>"; };
+		975B4044152210A00062C978 /* Fundamental Theorem of Calculus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fundamental Theorem of Calculus.png"; sourceTree = "<group>"; };
+		975B4045152210A00062C978 /* Integration by Parts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Integration by Parts.png"; sourceTree = "<group>"; };
+		975B4046152210A00062C978 /* L'Hopital's Rule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L'Hopital's Rule.png"; sourceTree = "<group>"; };
+		975B4047152210A00062C978 /* MacLaurin Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MacLaurin Series.png"; sourceTree = "<group>"; };
+		975B4048152210A00062C978 /* MainButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainButton.png; sourceTree = "<group>"; };
+		975B4049152210A00062C978 /* MainWhiteBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainWhiteBackground.png; sourceTree = "<group>"; };
+		975B404A152210A00062C978 /* MasterBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MasterBackground.png; sourceTree = "<group>"; };
+		975B404B152210A00062C978 /* Polar Coordinates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Polar Coordinates.png"; sourceTree = "<group>"; };
+		975B404C152210A00062C978 /* Rate of Change.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rate of Change.png"; sourceTree = "<group>"; };
+		975B404D152210A00062C978 /* Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Series.png; sourceTree = "<group>"; };
+		975B404E152210A00062C978 /* Top20IntegralsPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Top20IntegralsPic.png; sourceTree = "<group>"; };
+		975B404F152210A00062C978 /* Trig Identities.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Trig Identities.png"; sourceTree = "<group>"; };
+		975B4050152210A00062C978 /* Trig Unit Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Trig Unit Circle.png"; sourceTree = "<group>"; };
+		975B4051152210A00062C978 /* Volume(Disc-Washer).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Volume(Disc-Washer).png"; sourceTree = "<group>"; };
+		975B4052152210A00062C978 /* WhiteBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteBackground.png; sourceTree = "<group>"; };
+		975B406E152217540062C978 /* TrigIdentities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrigIdentities.h; path = "CalcBC Pro/TrigIdentities.h"; sourceTree = "<group>"; };
+		975B406F152217540062C978 /* TrigIdentities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrigIdentities.m; path = "CalcBC Pro/TrigIdentities.m"; sourceTree = "<group>"; };
+		975B4070152217540062C978 /* TrigIdentities.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TrigIdentities.xib; path = "CalcBC Pro/TrigIdentities.xib"; sourceTree = "<group>"; };
+		975B407315221C8D0062C978 /* AboutPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutPage.h; path = "CalcBC Pro/AboutPage.h"; sourceTree = "<group>"; };
+		975B407415221C8D0062C978 /* AboutPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutPage.m; path = "CalcBC Pro/AboutPage.m"; sourceTree = "<group>"; };
+		975B407515221C8D0062C978 /* AboutPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutPage.xib; path = "CalcBC Pro/AboutPage.xib"; sourceTree = "<group>"; };
+		975B4078152222390062C978 /* TrigUnitCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrigUnitCircle.h; path = "CalcBC Pro/TrigUnitCircle.h"; sourceTree = "<group>"; };
+		975B4079152222390062C978 /* TrigUnitCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrigUnitCircle.m; path = "CalcBC Pro/TrigUnitCircle.m"; sourceTree = "<group>"; };
+		975B407A1522223A0062C978 /* TrigUnitCircle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TrigUnitCircle.xib; path = "CalcBC Pro/TrigUnitCircle.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +175,52 @@
 		973C73191503AA180051BD74 = {
 			isa = PBXGroup;
 			children = (
+				970E394815225447009512DA /* MacLaurinSeries.h */,
+				970E394915225447009512DA /* MacLaurinSeries.m */,
+				970E394A15225448009512DA /* MacLaurinSeries.xib */,
+				970E39431522540B009512DA /* Series.h */,
+				970E39441522540C009512DA /* Series.m */,
+				970E39451522540C009512DA /* Series.xib */,
+				970E393E152253E7009512DA /* PolarCoordinates.h */,
+				970E393F152253E8009512DA /* PolarCoordinates.m */,
+				970E3940152253E8009512DA /* PolarCoordinates.xib */,
+				970E393915224EAD009512DA /* ArcLengthSurfaceArea.h */,
+				970E393A15224EAD009512DA /* ArcLengthSurfaceArea.m */,
+				970E393B15224EAD009512DA /* ArcLengthSurfaceArea.xib */,
+				970E393415224E72009512DA /* Volume.h */,
+				970E393515224E72009512DA /* Volume.m */,
+				970E393615224E72009512DA /* Volume.xib */,
+				970E392F15224820009512DA /* FTOCalculus.h */,
+				970E393015224820009512DA /* FTOCalculus.m */,
+				970E393115224820009512DA /* FTOCalculus.xib */,
+				970E392A152247E0009512DA /* LHopitalsRule.h */,
+				970E392B152247E0009512DA /* LHopitalsRule.m */,
+				970E392C152247E0009512DA /* LHopitalsRule.xib */,
+				970E3925152247A3009512DA /* IntegrationByParts.h */,
+				970E3926152247A3009512DA /* IntegrationByParts.m */,
+				970E3927152247A3009512DA /* IntegrationByParts.xib */,
+				970E392015224779009512DA /* RateOfChange.h */,
+				970E392115224779009512DA /* RateOfChange.m */,
+				970E392215224779009512DA /* RateOfChange.xib */,
+				970E391B15223E43009512DA /* CommonDerivatives.h */,
+				970E391C15223E43009512DA /* CommonDerivatives.m */,
+				970E391D15223E43009512DA /* CommonDerivatives.xib */,
+				970E391615223E16009512DA /* DerivativeRules.h */,
+				970E391715223E16009512DA /* DerivativeRules.m */,
+				970E391815223E16009512DA /* DerivativeRules.xib */,
+				970E391015223DEB009512DA /* TopIntegrals.h */,
+				970E391115223DEB009512DA /* TopIntegrals.m */,
+				970E391215223DEB009512DA /* TopIntegrals.xib */,
+				975B4078152222390062C978 /* TrigUnitCircle.h */,
+				975B4079152222390062C978 /* TrigUnitCircle.m */,
+				975B407A1522223A0062C978 /* TrigUnitCircle.xib */,
+				975B406E152217540062C978 /* TrigIdentities.h */,
+				975B406F152217540062C978 /* TrigIdentities.m */,
+				975B4070152217540062C978 /* TrigIdentities.xib */,
+				975B407315221C8D0062C978 /* AboutPage.h */,
+				975B407415221C8D0062C978 /* AboutPage.m */,
+				975B407515221C8D0062C978 /* AboutPage.xib */,
+				975B400A15220FEA0062C978 /* Pictures */,
 				973C732E1503AA190051BD74 /* CalcBC Pro */,
 				973C73271503AA190051BD74 /* Frameworks */,
 				973C73251503AA190051BD74 /* Products */,
@@ -98,6 +269,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		975B400A15220FEA0062C978 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				970E394D152263E7009512DA /* TrigIdentities.png */,
+				9719DE201523764E00873335 /* Icon.png */,
+				975B403C152210A00062C978 /* Arc Length-Surface Area.png */,
+				975B403D152210A00062C978 /* BackButton.png */,
+				975B403E152210A00062C978 /* CalcBCIcon.png */,
+				975B403F152210A00062C978 /* CalcBCIconR.png */,
+				975B4040152210A00062C978 /* CalcBCIconS.png */,
+				975B4041152210A00062C978 /* Common Derivatives.png */,
+				975B4042152210A00062C978 /* Default.png */,
+				975B4043152210A00062C978 /* Derivative Rules.png */,
+				975B4044152210A00062C978 /* Fundamental Theorem of Calculus.png */,
+				975B4045152210A00062C978 /* Integration by Parts.png */,
+				975B4046152210A00062C978 /* L'Hopital's Rule.png */,
+				975B4047152210A00062C978 /* MacLaurin Series.png */,
+				975B4048152210A00062C978 /* MainButton.png */,
+				975B4049152210A00062C978 /* MainWhiteBackground.png */,
+				975B404A152210A00062C978 /* MasterBackground.png */,
+				975B404B152210A00062C978 /* Polar Coordinates.png */,
+				975B404C152210A00062C978 /* Rate of Change.png */,
+				975B404D152210A00062C978 /* Series.png */,
+				975B404E152210A00062C978 /* Top20IntegralsPic.png */,
+				975B404F152210A00062C978 /* Trig Identities.png */,
+				975B4050152210A00062C978 /* Trig Unit Circle.png */,
+				975B4051152210A00062C978 /* Volume(Disc-Washer).png */,
+				975B4052152210A00062C978 /* WhiteBackground.png */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -124,7 +327,7 @@
 		973C731B1503AA180051BD74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = VinuIlangovan;
 			};
 			buildConfigurationList = 973C731E1503AA180051BD74 /* Build configuration list for PBXProject "CalcBC Pro" */;
@@ -151,6 +354,46 @@
 			files = (
 				973C73331503AA1A0051BD74 /* InfoPlist.strings in Resources */,
 				973C733F1503AA1A0051BD74 /* ViewController.xib in Resources */,
+				975B4053152210A00062C978 /* Arc Length-Surface Area.png in Resources */,
+				975B4054152210A00062C978 /* BackButton.png in Resources */,
+				975B4055152210A00062C978 /* CalcBCIcon.png in Resources */,
+				975B4056152210A00062C978 /* CalcBCIconR.png in Resources */,
+				975B4057152210A00062C978 /* CalcBCIconS.png in Resources */,
+				975B4058152210A00062C978 /* Common Derivatives.png in Resources */,
+				975B4059152210A00062C978 /* Default.png in Resources */,
+				975B405A152210A00062C978 /* Derivative Rules.png in Resources */,
+				975B405B152210A00062C978 /* Fundamental Theorem of Calculus.png in Resources */,
+				975B405C152210A00062C978 /* Integration by Parts.png in Resources */,
+				975B405D152210A00062C978 /* L'Hopital's Rule.png in Resources */,
+				975B405E152210A00062C978 /* MacLaurin Series.png in Resources */,
+				975B405F152210A00062C978 /* MainButton.png in Resources */,
+				975B4060152210A00062C978 /* MainWhiteBackground.png in Resources */,
+				975B4061152210A00062C978 /* MasterBackground.png in Resources */,
+				975B4062152210A00062C978 /* Polar Coordinates.png in Resources */,
+				975B4063152210A00062C978 /* Rate of Change.png in Resources */,
+				975B4064152210A00062C978 /* Series.png in Resources */,
+				975B4065152210A00062C978 /* Top20IntegralsPic.png in Resources */,
+				975B4066152210A00062C978 /* Trig Identities.png in Resources */,
+				975B4067152210A00062C978 /* Trig Unit Circle.png in Resources */,
+				975B4068152210A00062C978 /* Volume(Disc-Washer).png in Resources */,
+				975B4069152210A00062C978 /* WhiteBackground.png in Resources */,
+				975B4072152217540062C978 /* TrigIdentities.xib in Resources */,
+				975B407715221C8D0062C978 /* AboutPage.xib in Resources */,
+				975B407C1522223A0062C978 /* TrigUnitCircle.xib in Resources */,
+				970E391415223DEB009512DA /* TopIntegrals.xib in Resources */,
+				970E391A15223E16009512DA /* DerivativeRules.xib in Resources */,
+				970E391F15223E43009512DA /* CommonDerivatives.xib in Resources */,
+				970E392415224779009512DA /* RateOfChange.xib in Resources */,
+				970E3929152247A3009512DA /* IntegrationByParts.xib in Resources */,
+				970E392E152247E0009512DA /* LHopitalsRule.xib in Resources */,
+				970E393315224820009512DA /* FTOCalculus.xib in Resources */,
+				970E393815224E72009512DA /* Volume.xib in Resources */,
+				970E393D15224EAE009512DA /* ArcLengthSurfaceArea.xib in Resources */,
+				970E3942152253E8009512DA /* PolarCoordinates.xib in Resources */,
+				970E39471522540D009512DA /* Series.xib in Resources */,
+				970E394C15225448009512DA /* MacLaurinSeries.xib in Resources */,
+				970E394E152263E7009512DA /* TrigIdentities.png in Resources */,
+				9719DE211523764E00873335 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +407,21 @@
 				973C73351503AA1A0051BD74 /* main.m in Sources */,
 				973C73391503AA1A0051BD74 /* AppDelegate.m in Sources */,
 				973C733C1503AA1A0051BD74 /* ViewController.m in Sources */,
+				975B4071152217540062C978 /* TrigIdentities.m in Sources */,
+				975B407615221C8D0062C978 /* AboutPage.m in Sources */,
+				975B407B1522223A0062C978 /* TrigUnitCircle.m in Sources */,
+				970E391315223DEB009512DA /* TopIntegrals.m in Sources */,
+				970E391915223E16009512DA /* DerivativeRules.m in Sources */,
+				970E391E15223E43009512DA /* CommonDerivatives.m in Sources */,
+				970E392315224779009512DA /* RateOfChange.m in Sources */,
+				970E3928152247A3009512DA /* IntegrationByParts.m in Sources */,
+				970E392D152247E0009512DA /* LHopitalsRule.m in Sources */,
+				970E393215224820009512DA /* FTOCalculus.m in Sources */,
+				970E393715224E72009512DA /* Volume.m in Sources */,
+				970E393C15224EAE009512DA /* ArcLengthSurfaceArea.m in Sources */,
+				970E3941152253E8009512DA /* PolarCoordinates.m in Sources */,
+				970E39461522540D009512DA /* Series.m in Sources */,
+				970E394B15225448009512DA /* MacLaurinSeries.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +498,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalcBC Pro/CalcBC Pro-Prefix.pch";
 				INFOPLIST_FILE = "CalcBC Pro/CalcBC Pro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -251,6 +510,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalcBC Pro/CalcBC Pro-Prefix.pch";
 				INFOPLIST_FILE = "CalcBC Pro/CalcBC Pro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +535,7 @@
 				973C73441503AA1A0051BD74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
